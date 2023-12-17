@@ -1,0 +1,71 @@
+.signup-container{
+    background: url('./myexpenselog.webp') ;
+    background-size: contain;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form-container{
+width: 380px;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 0 12px 0  #a37961;
+background-color: white;
+text-align: center;
+}
+
+.signup-heading{
+    color:#a37961;
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.input-signup{
+    width: 300px;
+    font-size: 18px;
+    margin: 15px 0;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #a37961;
+}
+
+.signup-btn{
+    background-color: #a37961;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+.signup-account{
+    text-align: start;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 19px;
+}
+
+.login{
+    color: #a37961;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (Max-width:600px){
+
+    .signup-form-container{
+        width: 325px;
+    }
+
+    .input-signup{
+        width: 250px;
+    }
+
+    .signup-account{
+        font-size: 17px;
+    }
+}

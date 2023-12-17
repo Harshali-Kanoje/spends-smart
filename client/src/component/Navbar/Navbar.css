@@ -1,0 +1,35 @@
+.navbar{
+    background-color:#a37961 ;
+}
+.navbar-brand{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: rgb(235, 222, 222);
+    transition: .5s;
+}
+
+.nav-container{
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+.logout{
+    margin-left: 50px;
+    background-color: white;
+    color: #a37961;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}

@@ -1,0 +1,73 @@
+.add-transaction{
+    /* background-color: rgb(45 44 41);  */
+    color: white;
+    height: 90vh;
+    
+}
+
+.add-container{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 12px 0 #a37961;
+}
+
+.input-width{
+    width: 300px;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #a37961;
+    border: 1px solid #a37961;
+}
+
+.transaction-text{
+    color: #a37961;
+text-align: start;
+margin-left: 30px;
+font-size: 20px;
+font-weight: bold;
+}
+
+.radio-btn{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 30px; */
+    color: black;
+}
+
+.radio{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.transaction-btn{
+    background-color: #a37961;;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+@media screen and (Max-width:600px){
+    .add-container{
+        width: 300px;  
+    }
+
+    .input-width{
+        width: 250px;
+    }
+
+    .transaction-text{
+        margin-left: 10px;
+    }
+
+    .radio-btn{
+        justify-content: space-between;
+        margin: 10px;
+    }
+}
